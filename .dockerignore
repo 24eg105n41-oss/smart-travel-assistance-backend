@@ -1,0 +1,35 @@
+# Build outputs
+target/
+*.jar
+*.war
+
+# Version control
+.git/
+.gitignore
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# Local environment & secret files
+.env
+.env.*
+*.local
+secrets/
+*.pem
+*.key
+*.jks
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
