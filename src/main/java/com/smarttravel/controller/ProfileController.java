@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/api/profile")
+@RequestMapping({"/api/profile", "/profile"})
 public class ProfileController {
 
     @Autowired
